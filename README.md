@@ -12,7 +12,7 @@ This script is in BETA and it basically is fully functioning minus some things l
 ## Commands
 
 ### Weather
-> `weather <system/weather?` - Overrides current weather to this weather system or GTA default weather type
+> `weather <system/weather>` - Overrides current weather to this weather system or GTA default weather type
 
 > `freezeweather` - Toggles freezing of weather
 
