@@ -37,3 +37,7 @@ This script is in BETA and it basically is fully functioning minus some things l
 
 ## Extras
 This has a snow plow effect built in. Whenever it snows it will reset the snowplowed variable. If you call this from another script (say a snowplowing script) then it will disable the snow traction (the slippery effect) while keeping snow on the ground. 
+
+
+Credit:
+Vespura - vSync for the shift to hours,minutes functions on serverside: https://github.com/DevTestingPizza/vSync
