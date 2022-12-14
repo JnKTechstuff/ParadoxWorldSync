@@ -1,7 +1,7 @@
 # ParadoxWorldSync
 QBCore based world syncing and weather system with bucket support.
 
-### FiveM Topic: https://forum.cfx.re/t/free-qb-paradox-world-sync-smooth-time-and-weather-sync/4970361
+#### FiveM Topic: https://forum.cfx.re/t/free-qb-paradox-world-sync-smooth-time-and-weather-sync/4970361
 
 ### What makes this different than other scripts?
 What I am calling "smooth sync", no longer will you ever (hopefully) see the sky jitter at all. By variaing the time per minute to match near the server time (so if we are behind we speed up time slightly) we can maintain fully synced time (or within a minute) while keeping it optimized with statebags.
