@@ -41,6 +41,7 @@ How to override time/weather for a single client (apartment/housing)
 ```lua
 TriggerEvent('ParadoxTime:client:setOverrideData', {hours = 21, minutes = 0, seconds = 0, TimeScaler = 999999999})
 TriggerEvent('ParadoxWeather:client:setOverrideData', 'EXTRASUNNY')
+-- Call without args to reset to global clock
 ```
 
 ## Extras
