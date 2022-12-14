@@ -3,21 +3,18 @@ game 'gta5'
 lua54 'yes'
 use_fxv2_oal 'yes'
 
-name 'Paradox Weather + Time'
+name 'Paradox Gaming Weather + Time System'
+discord 'discord.gg/paradoxgaming'
 author 'JnKTechstuff'
-version '1.0'
+version '0.8'
+
+shared script 'config.lua'
 
 client_scripts {
-    '@PolyZone/client.lua',
-    '@PolyZone/BoxZone.lua',
-    '@PolyZone/EntityZone.lua',
-    '@PolyZone/CircleZone.lua',
-    '@PolyZone/ComboZone.lua',
-    "config.lua",
     "client/*.lua",
 }
 
 server_scripts {
-    "config.lua",
     "server/*.lua"
 }
+
