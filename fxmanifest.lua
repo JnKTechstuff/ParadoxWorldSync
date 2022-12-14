@@ -8,7 +8,7 @@ discord 'discord.gg/paradoxgaming'
 author 'JnKTechstuff'
 version '0.8'
 
-shared script 'config.lua'
+shared_script 'config.lua'
 
 client_scripts {
     "client/*.lua",
